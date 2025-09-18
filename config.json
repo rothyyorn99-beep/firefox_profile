@@ -1,0 +1,53 @@
+{
+  "geckodriver_path": "D:\\Automate master\\kk\\geckodriver.exe",
+  "profile_base_path": "C:\\Users\\Administrator\\Desktop\\firefox",
+  "max_threads": 3,
+  "url_to_open": "https://web.facebook.com",
+  "window_width": 310,
+  "window_height": 500,
+  "per_row": 3,
+  "screen_width": 1920,
+  "screen_height": 1080,
+  "cleanup_profiles": true,
+  "profiles": [
+   
+    {
+      "name": "profile 12",
+      "email": "n3w.mmo+christopherparker@yandex.com",
+      "password": "Mmo@112233",
+      "two_factor_key": "5MIE ZYGL W66M GX6R OKMC RLGG DCVF T2U6",
+      "is_admin": true,
+      "is_no_page": false,
+      "admin":{
+          "name": "Christopher Parker",
+          "admin_actions": [
+            {
+              "is_enable": false,
+              "type": "checkIn",
+              "location": "new york",
+              "desc": "abc"
+            }
+          ]
+        },
+      "pages": [
+        {
+          "page_id": "61580934005404",
+          "page_actions": [
+            {
+              "is_enable": true,
+              "type": "post_reel",
+              "is_random": true,
+              "total_videos": 3,
+              "video_path": "D:\\video\\tools",
+              "desc_filename": true,
+              "desc": "abc"
+            }
+          ]
+        }
+        
+        
+      ]
+    }
+
+  ]
+}
